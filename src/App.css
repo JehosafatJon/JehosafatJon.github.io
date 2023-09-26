@@ -26,10 +26,13 @@
 }
 
 .Side-bar-test {
+  background-color: #000a1d;
   display: flex;
+  flex-direction: column;
   width: 33vw;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 .Horizontal-test {
