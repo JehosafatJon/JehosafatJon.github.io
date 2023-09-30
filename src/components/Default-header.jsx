@@ -7,6 +7,7 @@ export function DefaultHeader() {
             <p>
             JehosafatJon Site Coming Soon!
             </p>
+            <p>~~home/index page~~</p>
             <a
                 className="App-link"
                 href="https://reactjs.org"
