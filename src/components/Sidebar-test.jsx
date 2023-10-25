@@ -9,7 +9,9 @@ export class SidebarTest extends Component {
         return (
             <div className="Horizontal-test">
                 <div className='Side-bar-test'>
-                    <img src= { ProfilePic } alt='Profile Pic' className = "rounded-image" />
+                    <div className="Pic-container">
+                        <img src= { ProfilePic } alt='Profile Pic' className = "rounded-image" />
+                    </div>
                     <h1>Jonathan Hughes</h1>
                     <Link to="/" className="animated-link">Learn React! / home</Link>
                     <Link to="/about" className="animated-link">About</Link>
