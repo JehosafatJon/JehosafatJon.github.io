@@ -4,6 +4,7 @@ import { SidebarTest } from './components/Sidebar-test';
 import { Interests } from './components/Interests'
 import { About } from './components/About'
 import { Resume } from './components/Resume'
+import { Downloads } from './components/Downloads'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="about" element= { <About /> } />
             <Route path="resume" element= { <Resume /> } />
             <Route path="interests" element = { <Interests /> } />
+            <Route path="downloads" element = { <Downloads /> } />
         </Routes>
       </Router>
     </div>

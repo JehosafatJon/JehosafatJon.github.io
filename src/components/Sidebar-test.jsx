@@ -17,6 +17,7 @@ export class SidebarTest extends Component {
                     <Link to="/about" className="animated-link">About</Link>
                     <Link to="/resume" className="animated-link">Resume</Link>
                     <Link to="/interests" className="animated-link">Interests</Link>
+                    <Link to="/Downloads" className="animated-link">Downloads</Link>
                     <p>~~social links~~</p>
                 </div>
                 <Outlet />
