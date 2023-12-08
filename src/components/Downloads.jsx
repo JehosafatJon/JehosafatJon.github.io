@@ -6,7 +6,7 @@ export class Downloads extends Component {
         return (
             <div className="App-header">
             <p>This is a downloads page</p>
-            <a href="/assets/lab10.exe" download>Internet Investigations Lab 10 "Malware" Link</a>
+            <a href="/lab10.exe" download>Internet Investigations Lab 10 "Malware" Link</a>
             </div>
         )
     }
