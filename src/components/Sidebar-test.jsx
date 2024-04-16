@@ -17,9 +17,11 @@ export class SidebarTest extends Component {
                     <h1>Jonathan Hughes</h1>
                     <Link to="/" className="animated-link">Home</Link>
                     <Link to="/about" className="animated-link">About</Link>
-                    <Link to="/resume" className="animated-link">Resume</Link>
-                    <Link to="/interests" className="animated-link">Interests</Link>
+                    {/*<Link to="/resume" className="animated-link">Resume</Link>*/}
+                    <Link to="/interests" className="animated-link">Skills and Projects</Link>
+                    <Link to="/awards" className="animated-link">Awards</Link>
                     <Link to="/downloads" className="animated-link">Downloads</Link>
+                    <p></p>
                     <SocialMediaLinks />
                 </div>
                 <Outlet />

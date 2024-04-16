@@ -6,6 +6,7 @@ import { About } from './components/About'
 import { Resume } from './components/Resume'
 import { Downloads } from './components/Downloads'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { Awards } from './components/Awards';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="resume" element= { <Resume /> } />
             <Route path="interests" element = { <Interests /> } />
             <Route path="downloads" element = { <Downloads /> } />
+            <Route path="awards" element = { <Awards /> } />
         </Routes>
       </Router>
     </div>

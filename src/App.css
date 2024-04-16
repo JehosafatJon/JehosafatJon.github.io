@@ -23,6 +23,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
+}
+
+.App-header p {
+  word-wrap: break-word;
 }
 
 .Side-bar-test {
@@ -42,6 +47,19 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.code-block-container {
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  max-height: 250px;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ccc;
+  font-size: 14px; /* Adjust the font size as needed */
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
