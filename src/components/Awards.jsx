@@ -6,8 +6,8 @@ export class Awards extends Component {
     render() {
         return (
             <div className="App-header">
-            <p>Awards</p>
-            <p style={{ fontSize: '18px', padding: '20px'}}>During my time at Fleming College, I have achieved recognition for my performance and have received and Academic Excellence Letter each semester.</p>
+            <h3>Awards</h3>
+            <p style={{ fontSize: '18px'}}>During my time at Fleming College, I've achieved recognition for my academic performance. I have received an Academic Excellence Letter for reaching a 4.0 GPA each semester.</p>
             <embed src={pdfUrl} type="application/pdf" width="80%" height="80%" />
             </div>
             

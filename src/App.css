@@ -28,6 +28,42 @@
 
 .App-header p {
   word-wrap: break-word;
+  padding: 60px;
+  opacity: 0; /* Start with zero opacity */
+  animation: fadeInFromLeftDelay 3.0s forwards; /* Apply animation */
+}
+
+.App-header h3 {
+  font-size: 36px;
+    color: #5fe3fa;
+    opacity: 0; /* Start with zero opacity */
+    animation: fadeInFromLeft 1.5s forwards; /* Apply animation */
+}
+
+@keyframes fadeInFromLeft {
+  0% {
+      opacity: 0; /* Start with zero opacity */
+      transform: translateX(-50px); /* Move left by 50px */
+  }
+  100% {
+      opacity: 1; /* End with full opacity */
+      transform: translateX(0); /* Move back to initial position (no translation) */
+  }
+}
+
+@keyframes fadeInFromLeftDelay {
+  0% {
+      opacity: 0; /* Start with zero opacity */
+      transform: translateX(-50px); /* Move left by 50px */
+  }
+  50%{
+    opacity: 0; /* Start with zero opacity */
+    transform: translateX(-50px); /* Move left by 50px */
+  }
+  100% {
+      opacity: 1; /* End with full opacity */
+      transform: translateX(0); /* Move back to initial position (no translation) */
+  }
 }
 
 .Side-bar-test {

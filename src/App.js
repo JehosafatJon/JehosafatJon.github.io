@@ -1,6 +1,6 @@
 import './App.css';
-import { DefaultHeader } from './components/Default-header';
-import { SidebarTest } from './components/Sidebar-test';
+import { Home } from './components/Home';
+import { Sidebar } from './components/Sidebar';
 import { Interests } from './components/Interests'
 import { About } from './components/About'
 import { Resume } from './components/Resume'
@@ -12,10 +12,10 @@ function App() {
   return (
     <div className='Horizontal-test'>
       <Router>
-        <SidebarTest />
+        <Sidebar />
         <Routes>
-          <Route path="/" element= { <SidebarTest /> } />
-            <Route index element = { <DefaultHeader /> } />
+          <Route path="/" element= { <Sidebar /> } />
+            <Route index element = { <Home /> } />
             <Route path="about" element= { <About /> } />
             <Route path="resume" element= { <Resume /> } />
             <Route path="interests" element = { <Interests /> } />

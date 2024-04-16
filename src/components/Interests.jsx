@@ -465,10 +465,10 @@ export class Interests extends Component {
         }`
         return (
             <div className="App-header">
-                <p>Skills and Projects</p>
+                <h3>Skills and Projects</h3>
 
                 
-                <p style={{ fontSize: '18px', padding: '20px'}}>I have been programming for many years. Here is the code I wrote while learning Python! I created small games and apps to practice programming. This code represents the very beginning of my coding journey.</p>
+                <p style={{ fontSize: '18px'}}>I've been programming for many years. Here is code that I wrote during my early days of learning to program! I created small games and apps to learn and practice programming. This code represents the very beginning of my coding journey.</p>
 
                 <div className="code-block-container">
                     <CodeBlock
@@ -481,9 +481,9 @@ export class Interests extends Component {
                     />
                 </div>
 
-                <p style={{ fontSize: '18px', padding: '20px'}}>I've gone on to fully develop an app from the ground up. I developed the front and back end for an iOS app in Swift. I have written thousands of lines of code for this project and have grown my skills in software development immensely. I have experience in communication protocols like MQTT, back-end server and API development, and I learned the Swift programming language in 2 months to create the front-end for the app.</p>
+                <p style={{ fontSize: '18px'}}>I've gone on to fully develop an iOS app and backend from the ground up. I have written thousands of lines of code for this project and have grown my skills and expertise in software development immensely. I have experience in IoT communication protocols like MQTT, back-end server request and API development, and I learned the Swift programming language in 2 months to create the front-end for the app.</p>
 
-                <p style={{ fontSize: '18px'}}>Here is a small snippet from the project's iOS app written in Swift.</p>
+                <p style={{ fontSize: '18px'}}>Here is a small snippet from the project's iOS app written in Swift. Due to the intellectual property ownership nature of the project, I can only display this small portion. </p>
 
                 <div className="code-block-container">
                     <CodeBlock

@@ -6,7 +6,7 @@ import "./css/ProfilePic.css";
 import "./css/ButtonStyles.css"
 import { SocialMediaLinks } from "./SocialMediaLinks";
 
-export class SidebarTest extends Component {
+export class Sidebar extends Component {
     render() {
         return (
             <div className="Horizontal-test">
