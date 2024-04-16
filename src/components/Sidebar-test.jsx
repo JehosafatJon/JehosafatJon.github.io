@@ -3,6 +3,8 @@ import { Outlet, Link } from "react-router-dom";
 import ProfilePic from '../assets/profile_pic.JPG';
 import "./css/AnimatedLink.css";
 import "./css/ProfilePic.css";
+import "./css/ButtonStyles.css"
+import { SocialMediaLinks } from "./SocialMediaLinks";
 
 export class SidebarTest extends Component {
     render() {
@@ -13,12 +15,12 @@ export class SidebarTest extends Component {
                         <img src= { ProfilePic } alt='Profile Pic' className = "rounded-image" />
                     </div>
                     <h1>Jonathan Hughes</h1>
-                    <Link to="/" className="animated-link">Learn React! / home</Link>
+                    <Link to="/" className="animated-link">Home</Link>
                     <Link to="/about" className="animated-link">About</Link>
                     <Link to="/resume" className="animated-link">Resume</Link>
                     <Link to="/interests" className="animated-link">Interests</Link>
                     <Link to="/downloads" className="animated-link">Downloads</Link>
-                    <p>~~social links~~</p>
+                    <SocialMediaLinks />
                 </div>
                 <Outlet />
             </div>

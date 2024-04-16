@@ -5,9 +5,10 @@ export function DefaultHeader() {
         <div className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>
-            JehosafatJon Site Coming Soon!
+            Welcome to Jonathan Hughes' E-Portfolio
+
             </p>
-            <p>~~home/index page~~</p>
+            <p style={{ fontSize: '14px', wordWrap: 'break-word'}}>  This website is a personal project of mine. I have written every piece of code on this website! If you'd like to see an example of my work, view page source!</p>
             <a
                 className="App-link"
                 href="https://reactjs.org"
