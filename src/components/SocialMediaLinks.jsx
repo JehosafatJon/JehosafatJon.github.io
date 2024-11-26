@@ -12,9 +12,9 @@ export class SocialMediaLinks extends Component {
                 <a href="https://github.com/JehosafatJon" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} size="2x"/> 
                 </a>
-                <a href="https://www.instagram.com/jonnyhuughes/" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://www.instagram.com/jonnyhuughes/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faInstagram} size="2x"/> 
-                </a>
+                </a> */}
             </div>
         )
     }
