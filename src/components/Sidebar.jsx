@@ -18,10 +18,9 @@ export class Sidebar extends Component {
                     <Link to="/" className="animated-link">Home</Link>
                     <Link to="/about" className="animated-link">About</Link>
                     {/*<Link to="/resume" className="animated-link">Resume</Link>*/}
-                    <Link to="/interests" className="animated-link">Skills and Projects</Link>
-                    <Link to="/awards" className="animated-link">Awards</Link>
-                    <Link to="/downloads" className="animated-link">Downloads</Link>
-                    <p></p>
+                    {/* <Link to="/interests" className="animated-link">Skills and Projects</Link> */}
+                    {/* <Link to="/awards" className="animated-link">Awards</Link> */}
+                    {/* <Link to="/downloads" className="animated-link">Downloads</Link> */}
                     <SocialMediaLinks />
                 </div>
                 <Outlet />
